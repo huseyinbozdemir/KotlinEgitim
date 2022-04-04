@@ -36,5 +36,10 @@ class MainActivity : AppCompatActivity() {
 
         var yeniInteger : Int = 30
         println(s1/2)
+
+        println("------------Long---------")
+        var yeniLong:Long = 100
+        yeniLong = 300000000000
+        println(yeniLong)
     }
 }
