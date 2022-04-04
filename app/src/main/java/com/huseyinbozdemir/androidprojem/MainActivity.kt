@@ -103,5 +103,26 @@ class MainActivity : AppCompatActivity() {
         intArrayList.add(4)
         intArrayList.add(2)
         println(intArrayList.get(1))
+
+        println("------------Set---------")
+        var ornekDizi = arrayOf(7,8,9,9,8,10)
+        println("index 2: ${ornekDizi[2]}")
+        println("index 3: ${ornekDizi[3]}")
+        println(ornekDizi.size)
+
+        val yeniSet = setOf<Int>(7,8,9,9,8,10)
+        println(yeniSet.size)
+        println("Set yazılıyor..")
+        yeniSet.forEach{
+            println(it)
+        }
+
+        var digerSet = HashSet<String>()
+        digerSet.add("Hüseyin")
+        digerSet.add("Hüseyin")
+        digerSet.add("Bozdemir")
+        digerSet.forEach{
+            println(it)
+        }
     }
 }
