@@ -86,5 +86,22 @@ class MainActivity : AppCompatActivity() {
         var karisikDizi= arrayOf("Hüseyin",2,4,5,6,true)
         println(karisikDizi.get(5))
 
+        println("------------Array List---------")
+        var isimListesi = arrayListOf("Hüseyin","Yunus","Furkan")
+        println(isimListesi.get(1))
+
+        isimListesi.add("Batuhan")
+        println(isimListesi.get(3))
+
+        var karisikArrayList = arrayListOf<Any>()
+        karisikArrayList.add("Test")
+        karisikArrayList.add(5)
+        karisikArrayList.add(true)
+        println(karisikArrayList.get(2))
+
+        var intArrayList = ArrayList<Int>()
+        intArrayList.add(4)
+        intArrayList.add(2)
+        println(intArrayList.get(1))
     }
 }
