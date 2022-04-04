@@ -46,5 +46,16 @@ class MainActivity : AppCompatActivity() {
         var ondalikli = 3.14
         println(ondalikli*2)
         println(ondalikli/2)
+
+        println("------------String---------")
+
+        var yeniString = "Yeni metin"
+        println(yeniString.length)
+
+        var isim = "Hüseyin"
+        var soyisim = "Bozdemir"
+        var tamIsim = isim + " " + soyisim
+        println(tamIsim)
+
     }
 }
