@@ -28,5 +28,13 @@ class MainActivity : AppCompatActivity() {
 
         val yasSonucu = yas * x
         println(yasSonucu)
+
+        println("------------Int---------")
+        var s1 = 5
+        var s2 = 10
+        println(s1+s2)
+
+        var yeniInteger : Int = 30
+        println(s1/2)
     }
 }
