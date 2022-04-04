@@ -76,6 +76,15 @@ class MainActivity : AppCompatActivity() {
 
         println(yeniDizi[0])
         println(yeniDizi.get(1))
-        
+
+        yeniDizi.set(0,"Mahmut")
+        println(yeniDizi[0])
+
+        var numaraDizi = arrayOf(1,2,3,5)
+        println(numaraDizi.get(2))
+
+        var karisikDizi= arrayOf("Hüseyin",2,4,5,6,true)
+        println(karisikDizi.get(5))
+
     }
 }
