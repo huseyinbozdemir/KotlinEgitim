@@ -57,5 +57,10 @@ class MainActivity : AppCompatActivity() {
         var tamIsim = isim + " " + soyisim
         println(tamIsim)
 
+        println("------------Boolean---------")
+        var yeniBoolean=true
+        yeniBoolean=false
+        println(3<5)
+
     }
 }
