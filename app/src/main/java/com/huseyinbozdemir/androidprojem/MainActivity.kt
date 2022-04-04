@@ -22,5 +22,11 @@ class MainActivity : AppCompatActivity() {
         yas = 60
         println(yas/5*8)
 
+        val pi = 3.14
+        val x = 5
+        println(a*pi)
+
+        val yasSonucu = yas * x
+        println(yasSonucu)
     }
 }
