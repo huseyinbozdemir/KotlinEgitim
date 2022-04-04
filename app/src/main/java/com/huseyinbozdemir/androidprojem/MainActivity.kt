@@ -70,5 +70,12 @@ class MainActivity : AppCompatActivity() {
         var kullaniciGirdisi="50"
         var kullaniciInt=kullaniciGirdisi.toInt()
         println(kullaniciInt*5)
+
+        println("------------Dizi---------")
+        var yeniDizi = arrayOf("Hüseyin","Bozdemir","Ali","Veli")
+
+        println(yeniDizi[0])
+        println(yeniDizi.get(1))
+        
     }
 }
