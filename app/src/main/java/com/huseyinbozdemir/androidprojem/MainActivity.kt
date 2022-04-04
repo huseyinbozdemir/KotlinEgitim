@@ -62,5 +62,13 @@ class MainActivity : AppCompatActivity() {
         yeniBoolean=false
         println(3<5)
 
+        println("------------Dönüşüm---------")
+        var dInt = 10
+        var dLongToInt = dInt.toLong()
+        println(dLongToInt)
+
+        var kullaniciGirdisi="50"
+        var kullaniciInt=kullaniciGirdisi.toInt()
+        println(kullaniciInt*5)
     }
 }
