@@ -124,5 +124,23 @@ class MainActivity : AppCompatActivity() {
         digerSet.forEach{
             println(it)
         }
+
+        println("------------Map---------")
+        var yemekDizisi = arrayOf("Elma","Et","Tavuk")
+        var kaloriDizisi = arrayOf(100,200,300)
+
+        println("${yemekDizisi[0]} kalorisi: ${kaloriDizisi[0]}" )
+
+        var yemekKaloriMap = hashMapOf<String,Int>()
+        yemekKaloriMap.put("Elma",100)
+        yemekKaloriMap.put("Et",200)
+        yemekKaloriMap.put("Tavuk",300)
+        println(yemekKaloriMap.get("Et"))
+
+        var benimMapim = HashMap<String,String>()
+        benimMapim.put("Örnek","Değer")
+
+        var yeniMap = hashMapOf<String,Int>("Hüseyin" to 50,"Mehmet" to 40)
+        println(yeniMap.get("Mehmet"))
     }
 }
