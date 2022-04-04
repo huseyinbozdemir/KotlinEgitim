@@ -41,5 +41,10 @@ class MainActivity : AppCompatActivity() {
         var yeniLong:Long = 100
         yeniLong = 300000000000
         println(yeniLong)
+
+        println("------------Double & Float---------")
+        var ondalikli = 3.14
+        println(ondalikli*2)
+        println(ondalikli/2)
     }
 }
