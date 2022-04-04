@@ -12,5 +12,15 @@ class MainActivity : AppCompatActivity() {
 
         println("merhaba kotlin.")
         println(5*10)
+
+        var a = 5
+        var b = 10
+        println(a*b)
+
+        var yas = 50
+        println(yas/5*8)
+        yas = 60
+        println(yas/5*8)
+
     }
 }
