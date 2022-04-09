@@ -142,5 +142,21 @@ class MainActivity : AppCompatActivity() {
 
         var yeniMap = hashMapOf<String,Int>("Hüseyin" to 50,"Mehmet" to 40)
         println(yeniMap.get("Mehmet"))
+
+        println("------------Matematiksel İşlemler---------")
+        var sayi=8
+        var digerSayi=10
+        println(sayi)
+        sayi=sayi+1
+        println(sayi)
+        sayi++
+        println(sayi)
+        sayi--
+        println(sayi)
+        println(digerSayi>sayi)
+        println(digerSayi>sayi && 2>3)
+        println(digerSayi>sayi || 2>3)
+
+
     }
 }
