@@ -169,6 +169,18 @@ class MainActivity : AppCompatActivity() {
             println("Skorun 20'nin üstünde, efsane oynadın.")
         }
 
+        println("------------When Kontrolleri---------")
+        var notRakami=0
+        var notStringi=""
 
+        when (notRakami){
+            0 -> notStringi="Geçersiz not."
+            1 -> notStringi="Zayıf"
+            2 -> notStringi="Kötü"
+            3 -> notStringi="Orta"
+            4 -> notStringi="İyi"
+            else -> notStringi="Pek İyi"
+        }
+        println(notStringi)
     }
 }
