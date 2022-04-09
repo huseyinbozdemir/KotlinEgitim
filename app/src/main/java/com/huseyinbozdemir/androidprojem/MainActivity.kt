@@ -157,6 +157,18 @@ class MainActivity : AppCompatActivity() {
         println(digerSayi>sayi && 2>3)
         println(digerSayi>sayi || 2>3)
 
+        println("------------Eğer Kontrolleri---------")
+        var skor = 10
+        if(skor<10){
+            println("Oyunu kaybettin.")
+        }
+        else if (skor>=10 && skor < 20 ){
+            println("Skorun 10 ve 20 arasında, çok iyi skor aldın.")
+        }
+        else{
+            println("Skorun 20'nin üstünde, efsane oynadın.")
+        }
+
 
     }
 }
