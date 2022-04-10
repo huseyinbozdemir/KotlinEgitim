@@ -197,5 +197,12 @@ class MainActivity : AppCompatActivity() {
         for (b in 0..9){
             println(b)
         }
+
+        println("------------While Döngüsü---------")
+        var j = 0
+        while(j<10){
+            println(j)
+            j++
+        }
     }
 }
