@@ -182,5 +182,20 @@ class MainActivity : AppCompatActivity() {
             else -> notStringi="Pek İyi"
         }
         println(notStringi)
+
+        println("------------For Döngüsü---------")
+        var sayiDizisi = arrayOf(5,10,15,20,25,30)
+        for (i in sayiDizisi){
+            println(i)
+        }
+        println("Döngü bitti.")
+        for(indx in sayiDizisi.indices){
+            println(sayiDizisi[indx]/5+3)
+        }
+        println("Döngü bitti.")
+
+        for (b in 0..9){
+            println(b)
+        }
     }
 }
